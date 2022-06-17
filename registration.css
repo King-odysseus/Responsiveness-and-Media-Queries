@@ -1,6 +1,7 @@
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
 }
 body {
   background-image: url("images/bg-intro-desktop.png");
@@ -9,8 +10,15 @@ body {
 }
 main {
   display: flex;
-  flex-direction: auto;
+  justify-content: center;
   align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -18,7 +26,7 @@ h1 {
   font-weight: 100px;
   font-family: Helvetica, sans-serif;
 }
-.content {
+.content-text {
   font-family: Helvetica, sans-serif;
   font-size: 15px;
   line-height: 2em;
@@ -26,9 +34,10 @@ h1 {
 .container {
   padding: 5em;
 }
+
 .text {
-  margin-left: 15em;
-  margin-right: 5em;
+  margin-left: auto;
+  padding: 4em;
 }
 
 .try {
