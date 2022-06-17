@@ -21,6 +21,9 @@ h1 {
 .container {
   padding: 5em;
 }
+.text {
+  margin: 5em;
+}
 
 .try {
   background-color: #5d54a3;
