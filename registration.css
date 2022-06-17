@@ -8,6 +8,11 @@ body {
   background-color: #ff7878b8;
   color: white;
 }
+@media all and (min-max: 600px) {
+  .content {
+    flex: 1;
+  }
+}
 main {
   display: flex;
   justify-content: center;
