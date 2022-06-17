@@ -73,6 +73,7 @@ text {
   cursor: pointer;
   color: white;
   border-radius: 5px;
+  width: 100%;
 }
 input[type="text"],
 [type="email"],
